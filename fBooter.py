@@ -20,7 +20,7 @@ def get_host():
 def start():
     for attack in range(int(attacks)):
         ip = f"{r.randint(1, 255)}.{r.randint(0, 255)}.{r.randint(0, 255)}.{r.randint(0, 255)}"
-        print(Fore.YELLOW + "Using " + f"{Fore.LIGHTWHITE_EX + ip} " + Fore.YELLOW + "to DDoS " + f"{Fore.LIGHTWHITE_EX + host}")
+        print(Fore.YELLOW + "Used " + f"{Fore.LIGHTWHITE_EX + ip} " + Fore.YELLOW + "to DDoS " + f"{Fore.LIGHTWHITE_EX + host}")
         s(0.025)
     print("\nAttacks completed!\n")
 
