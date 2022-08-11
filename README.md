@@ -1,5 +1,5 @@
 # FakeBooter
-A fake DDoS Booter inspired by https://github.com/Sayrix/fake-booter
+A fake DDoS Booter inspired by https://github.com/Sayrix/fake-booter writen in Python
 
 
 ## How to install
